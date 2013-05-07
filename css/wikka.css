@@ -2,25 +2,6 @@
 -----------------------------------------------
 Wikka Bootstrap Stylesheet
 ----------------------------------------------- */
-/* duplicate some bootstrap code */
-.nav {
-  margin-left: 0;
-  margin-bottom: 20px;
-  list-style: none;
-}
-.nav li a {
-  display: block;
-}
-.nav li a img {
-  max-width: none;
-}
-.nav a:hover {
-  text-decoration: none;
-  background-color: #eeeeee;
-}
-.nav .pull-right {
-  float: right;
-}
 /* global styling */
 /*
 #page {
@@ -1203,18 +1184,8 @@ ul.menu li form input {
   margin-bottom: 20px;
   list-style: none;
 }
-.menu li a {
-  display: block;
-}
-.menu li a img {
-  max-width: none;
-}
-.menu a:hover {
-  text-decoration: none;
-  background-color: #eeeeee;
-}
-.menu .pull-right {
-  float: right;
+.menu li {
+  display: inline-block;
 }
 /*
 ul#main_menu {
