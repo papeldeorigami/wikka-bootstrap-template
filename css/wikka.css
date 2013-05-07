@@ -1173,7 +1173,9 @@ textarea.acls {
 /* menus */
 ul.menu li form {
   display: inline;
+  margin-top: 10px;
 }
+
 ul.menu li form input {
   line-height: 1.1em;
   color: #333;
@@ -1184,9 +1186,19 @@ ul.menu li form input {
   margin-bottom: 20px;
   list-style: none;
 }
+
 .menu li {
   display: inline-block;
+  color: #999999;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
 }
+
+.menu li form label {
+  float: left;
+  margin-left: 150px;
+  padding-right: 5px;
+}
+
 /*
 ul#main_menu {
 float: left;
@@ -1241,6 +1253,7 @@ ul.menu form#form_logout input[type=submit] {
   color: #993357;
   text-decoration: none;
   cursor: pointer;
+  margin-left: 10px;
 }
 ul#dashboard {
   border: none;
