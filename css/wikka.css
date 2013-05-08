@@ -2,27 +2,19 @@
 -----------------------------------------------
 Wikka Bootstrap Stylesheet
 ----------------------------------------------- */
+
 /* global styling */
-/*
-#page {
-margin: 0 auto;
-}
- */
+
 #header {
   position: relative;
-  /* needed for the correct positioning of system messages */
-
   padding: 10px;
   padding-top: 0px;
 }
 #header h2 {
   text-align: left;
-  /*	font: normal 14pt Arial, "DejaVu Sans", Helvetica, sans-serif; */
 
 }
 #content {
-  /*	border: 1px solid #BBB;*/
-
   text-align: left;
   background-color: #FFF;
   padding: 30px 30px 30px 30px;
@@ -34,29 +26,12 @@ margin: 0 auto;
   padding: 0 10px;
 }
 #smallprint {
-  /*	font-family: Arial, Helvetica, sans-serif; */
-
   font-size: 70%;
   color: #777;
   padding-right: 0.5%;
   text-align: right;
 }
 /* comments */
-/* wrapper for the whole comments block, contains the header and the actual comments */
-/*#comments {
-margin-top: 20px;	
-padding: 10px;
-color: #333;	
-background-color: #D0E0F0;
-border: 1px solid #ABC;
-}
- */
-/*
-#comments a {
-color: #666;	
-text-decoration: none;
-}
- */
 #commentsheader {
   clear: both;
   border-top: 1px solid #CCC;
@@ -85,9 +60,8 @@ textarea#commentbox {
 .commentinfo {
   color: #999999;
   font-size: 80%;
-  /*	font-family: "Lucida Console", Monaco, monospace;*/
-
 }
+
 .commentdeleted {
   color: #AAAAAA;
 }
@@ -117,30 +91,7 @@ a.ext {
 a.ext:hover {
   color: #933;
 }
-/*#header a, #footer a {
-color: #20557B;
-font-family: Arial, Helvetica, sans-serif; 	
-}
 
-
-#header h2 a {
-font: normal 14pt Arial, "DejaVu Sans", Helvetica, sans-serif; 
-color: #AAA;
-}
-
-#header h2 a:hover {
-color: #666;
-background-color: transparent;
-}
-
-#header h2 a#homepage_link {
-color: #666;
-}
-
-#header h2 a#homepage_link:hover {
-color: #333;
-}
- */
 #content a:link,
 #content a:visited {
   font-family: inherit;
@@ -189,17 +140,6 @@ color: #333;
   background-color: transparent;
 }
 /* link tails */
-/* user links and spans */
-/*.user, .user:hover {
-background: url(../images/user.gif) left bottom no-repeat;
-padding-left: .9em;
-}
-
-#content a.user, #content a.user:hover {
-background: url(../images/user.gif) left bottom no-repeat;
-padding-left: .9em;
-}
- */
 /* external links */
 #content a.ext,
 #content a.ext:hover {
@@ -218,64 +158,6 @@ padding-left: .9em;
   background: url(../images/mail.gif) right center no-repeat;
   padding-right: 1em;
 }
-/* lists */
-/*
-ul, ol {
-margin-top: 0px;
-margin-bottom: 0px;
-padding-top: 0px;
-padding-bottom: 0px;
-}
-
-li {
-margin: .5em;
-}
-
-ul.thread {
-list-style-type: none;
-border-left: 2px #666 solid;
-padding-left: 10px;
-margin: 5px 0px;  
-}
-
-ul.thread li {
-color: #333;
-font-size: 11px;
-}
- */
-/* images */
-/*
-img {
-border: 0px;
-}
-
-img.centre {
-display: block; 
-text-align: center; 
-margin: 5px auto;
-}
-
-img.center {
-display: block; 
-text-align: center; 
-margin: 5px auto;
-}
-
-img.left {
-margin: 5px 5px 5px -5px;
-float: left;
-}
-
-img.right {
-margin: 5px -5px 5px 5px; 
-float: right;
-}
-
-img.icon {
-border: 0px;
-vertical-align: middle;
-}
- */
 /* floats */
 .floatl {
   float: left;
@@ -307,70 +189,9 @@ vertical-align: middle;
   clear: both;
 }
 /* text formatting */
-/*
-#content h1 {
-font: normal 18pt/20pt  Arial, "DejaVu Sans", Helvetica, Verdana, sans-serif;
-margin: 0pt;
-color: #666;
-padding-bottom: 10px;
-border: none 0;
-border-bottom: 1px dotted #DDD; 
-}
-
-#content h2 {
-font: normal 16pt/18pt  Arial, "DejaVu Sans", Helvetica, Verdana, sans-serif;
-margin: 0pt;
-color: #666;
-padding-bottom: 10px;
-border-bottom: 1px dotted #DDD; 
-}
-
-#content h3 {
-font: normal 14pt/16pt Arial, "DejaVu Sans", Helvetica, Verdana, sans-serif;
-margin: 0pt;
-color: #666;
-padding-bottom: 8px;
-}
-
-#content h4 {
-font: normal 12pt/14pt Arial, "DejaVu Sans", Helvetica, Verdana, sans-serif;
-margin: 0pt;
-color: #666;
-padding-bottom: 6px;
-}
-
-#content h5 {
-font: small-caps 10pt/16pt Arial, "DejaVu Sans", Helvetica, Verdana, sans-serif;
-margin: 0pt;
-color: #666;
-letter-spacing: 0.1em;
-}
-
-#content h6 {
-font: bold 10pt/12pt Arial, "DejaVu Sans", Helvetica, Verdana, sans-serif;
-color: #666;
-}
-
-tt {
-font-size: 11px;
-color: #999;
-background-color: #EEE; 
-}
- */
 .hidden {
   display: none;
 }
-/*
-.wikisource {
-font-family: monospace;
-font-size: .9em;
-color: #666;
-background-color: #F9F9F9;
-border: 1px solid #CCC;
-padding: 1em;
-margin-bottom: .5em;
-}
- */
 .highlight {
   color: red;
   background: #FFFFD0;
@@ -488,99 +309,6 @@ hr {
   font-family: "Lucida Console", Monaco, monospace;
 }
 /* form elements */
-/*
-fieldset {
-margin-top: 10px;
-margin-bottom: 10px;
-border: 1px solid #CCC;	
-}
-
-fieldset legend {
-font-size: 115%;
-color: #666;
-padding:2px;
-}
-
-select {
-border: 1px solid #CCC;	
-}
-
-select:hover {
-background-color: #F3F3F3;
-}
-
-select:focus {
-background-color: #E6E6FF;
-}
-
-textarea {
-margin-right: 0;
-width: 98%;
-height: 500px;
-border: 1px solid #CCC;
-}
-
-textarea:hover {
-background-color: #F3F3F3;
-}
-
-textarea:focus {
-background-color: #E6E6FF;
-}
-
-input {
-border: 1px solid #CCC;	
-}
-
-input:hover {
-background-color: #F3F3F3;
-}
-
-input:focus {
-background-color: #E6E6FF;
-}
-
-input[type=hidden] {
-display: none;
-}
-
-input[type=submit], input[type=button] {
-color: #666;
-background-color: #EEE;
-font: normal 90% Arial, Helvetica, Verdana, sans-serif;
-text-align: center;
-border-top: 1px solid #FFF;
-border-left: 1px solid #FFF;
-border-right: 1px solid #AAA;
-border-bottom: 1px solid #AAA;
-padding: .1em .2em;
-}
-
-input[type=submit]:hover, input[type=button]:hover {
-color: #333;
-background-color: #DDD;
-border-top: 1px solid #FFF;
-border-left: 1px solid #FFF;
-border-right: 1px solid #999;
-border-bottom: 1px solid #999;
-}
-*/
-/* editor textarea decorations */
-/* (decorations can't be in "textarea#body" declaration, else the "width:100%" won't work) */
-/*
-#textarea_container {
-border: 1px solid #CCC;
-padding: 2px;
-margin-bottom: 2px;
-}
-
-textarea#body{
-width: 100%;
-height: 500px;
-padding: 0;
-border: 0;
-}
- */
 .searchbox {
   border: 1px solid #CCA;
   padding: 0px;
@@ -1162,18 +890,9 @@ textarea.acls {
   margin: 0px;
   cursor: pointer;
 }
-/*
-.toolbar .btn- img  { width: 20px; height: 20px; }
-.toolbar .btn-hover { border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight; }
-.toolbar .btn-active,
-.toolbar .btn-pressed { border-color: ButtonShadow ButtonHighlight ButtonHighlight ButtonShadow; }
-.toolbar .btn-pressed { background: ButtonHighlight; }
-.editornamecss { background-color:#CCCCFF; font-size: 18px; padding: 0 10px; }
- */
 /* menus */
 ul.menu li form {
   display: inline;
-  margin-top: 10px;
 }
 
 ul.menu li form input {
@@ -1181,6 +900,11 @@ ul.menu li form input {
   color: #333;
   border: 1px solid #CCC;
 }
+
+.navbar .nav > li > a {
+  padding: 0;
+}
+
 .menu {
   margin-left: 0;
   margin-bottom: 20px;
@@ -1193,68 +917,31 @@ ul.menu li form input {
   text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
 }
 
+.menu > li {
+  padding: 10px 15px 8px;
+}
+
 .menu li form label {
   float: left;
   margin-left: 150px;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 
-/*
-ul#main_menu {
-float: left;
-list-style-type: none;
-padding: 0px;
-margin-top: 10px;
-}
-
-ul#main_menu li {
-margin-left: 0;
-margin-top: 0;
-margin-right: 10px;
-padding: 0;
-float: left;
-width: auto;
-text-align: left;
-font-size: 90%;
-}
-
-ul#main_menu li a {
-color: #20557B;
-}
-
-ul#main_menu li > a:hover {
-background-color: transparent;
-color: #cc6600;
-}
-
-ul#options_menu {
-float: left;
-list-style-type: none;
-padding: 0px;
-margin-top: 0px;
-}
-
-ul#options_menu li {
-margin-top: 0;
-padding: 0;
-float: left;
-width: auto;
-text-align: left;
-}
- */
 ul.menu form#form_logout input[type=submit] {
   background-color: transparent;
   border: none;
-  /*    font-family: Arial, Helvetica, Verdana, sans-serif;
-	font-size: inherit;*/
-
-  padding: inherit;
+  padding-left: 20px;
   font-weight: inherit;
-  color: #993357;
+  color: #999999;
   text-decoration: none;
   cursor: pointer;
   margin-left: 10px;
 }
+
+ul.menu form#form_logout input[type=submit]:hover {
+  color: #ffffff;
+}
+
 ul#dashboard {
   border: none;
   background-color: #556;
@@ -1265,8 +952,6 @@ ul#dashboard {
   width: 850px;
 }
 ul#dashboard li {
-  /*	font-family: Arial, Helvetica, Verdana, sans-serif;*/
-
   margin: 0 0 0 10px;
   padding: 0;
   float: left;
