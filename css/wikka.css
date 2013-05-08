@@ -930,7 +930,6 @@ ul.menu li form input {
 ul.menu form#form_logout input[type=submit] {
   background-color: transparent;
   border: none;
-  padding-left: 20px;
   font-weight: inherit;
   color: #999999;
   text-decoration: none;
