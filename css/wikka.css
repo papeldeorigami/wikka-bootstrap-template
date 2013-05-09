@@ -7,17 +7,16 @@ Wikka Bootstrap Stylesheet
 
 #header {
   position: relative;
-  padding: 10px;
-  padding-top: 0px;
 }
+
 #header h2 {
   text-align: left;
-
 }
+
 #content {
   text-align: left;
   background-color: #FFF;
-  padding: 30px 30px 30px 30px;
+  padding: 0px 0px 0px 0px;
   clear: both;
 }
 #footer {

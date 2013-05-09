@@ -1,4 +1,6 @@
 <!-- BEGIN PAGE FOOTER -->
+</div>
+</div>
 <div id="footer">
 <?php
 	//page generation start

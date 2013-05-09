@@ -58,9 +58,17 @@ if (isset($message) && strlen($message)>0)
 ?>
 <!-- BEGIN PAGE HEADER -->
 <div id="header">
-<div class="navbar navbar-inverse">
+<div class="navbar navbar-inverse navbar-static-top">
 <div class="navbar-inner">
+<div class="container">
 <?php echo str_replace('"menu"', '"menu nav"', $this->MakeMenu('main_menu')); ?>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="container">
+<?php if ($this->IsAdmin()) echo $this->MakeMenu('dashboard'); ?>
 </div>
 </div>
 <ul class="breadcrumb">
@@ -68,5 +76,6 @@ if (isset($message) && strlen($message)>0)
   <li class="active"><a href="<?php echo $this->href('backlinks', '', ''); ?>" title="Display a list of pages linking to <?php echo $this->tag ?>"><?php echo $this->GetPageTag(); ?></a></li>
 </ul>
 </div>
-<?php if ($this->IsAdmin()) echo $this->MakeMenu('dashboard'); ?>
+</div>
+<div class="container">
 <!-- END PAGE HEADER -->
